@@ -61,6 +61,7 @@ Design Evolution & Versions
 设计迭代与版本演进
 This project is developed iteratively. Each version focuses on validating different aspects of mechanical design, airflow performance, noise control, and manufacturability.
 The following sections document the design rationale, trade-offs, and lessons learned from each version.
+<img width="1370" height="929" alt="Testing" src="https://github.com/user-attachments/assets/5604fe4a-fb58-4cbc-a8c9-f1eae82bf3f7" />
 
 ---
 Version 1 – Initial Prototype
