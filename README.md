@@ -59,6 +59,7 @@ Air_Filter 是一个紧凑型、模块化的焊接烟气过滤与空气抽吸装
 ---
 Design Evolution & Versions
 设计迭代与版本演进
+
 This project is developed iteratively. Each version focuses on validating different aspects of mechanical design, airflow performance, noise control, and manufacturability.
 The following sections document the design rationale, trade-offs, and lessons learned from each version.
 <img width="1370" height="929" alt="Testing" src="https://github.com/user-attachments/assets/5604fe4a-fb58-4cbc-a8c9-f1eae82bf3f7" />
@@ -78,6 +79,7 @@ Status: Functional prototype, ongoing evaluation
 
 Design Objectives
 设计目标
+
 The first version focused on validating the core feasibility of a compact, desktop-sized soldering fume extraction device, with the following priorities:
 Compact overall size suitable for personal workbenches
 Sufficient suction performance for soldering smoke capture
@@ -93,6 +95,7 @@ Rapid prototyping using 3D printing
 ---
 Overall Architecture
 整体结构
+
 The system is divided into two primary modules:
 Base Module – fan mounting and structural support
 Transmission Roll Module – airflow guidance and filtration
@@ -106,6 +109,7 @@ Transmission Roll Module（过滤与风道模块） – 用于气流导向和过
 ---
 Base Module Design
 Base（风机基座）设计
+
 The Base module is responsible for mounting and supporting the centrifugal blower.
 Key design considerations include:
 Strict adherence to fan datasheet dimensions and mounting features
@@ -123,6 +127,7 @@ Base 模块用于固定和支撑离心风机。
 ---
 Transmission Roll Module
 Transmission Roll（过滤与风道模块）
+
 This module handles airflow redirection, filtration, and exhaust.
 Design goals:
 Compact and portable form factor
@@ -152,6 +157,7 @@ Accepting reduced peak suction in exchange for improved acoustic comfort
 ---
 Fan Selection & Filtration Strategy
 风机选型与过滤方案
+
 A Sanyo centrifugal blower was selected due to its ability to provide high static pressure (~700 Pa at 12 V), which is critical for overcoming the pressure drop introduced by multi-stage filtration.
 The filtration strategy consists of:
 Pre-filter (large particle interception)
@@ -169,6 +175,7 @@ HEPA 滤材（拦截细小颗粒）
 ---
 ilter Shape & Transition Geometry
 过滤形状与过渡结构
+
 A circular filter geometry was selected after comparing square and circular alternatives, due to:
 Easier replacement and sealing
 Symmetric structural loading
@@ -190,6 +197,7 @@ V1 等效半角：大于 50°，受空间限制
 ---
 Filter Thickness & Safety Considerations
 过滤厚度与安全设计
+
 To balance filtration performance and device thickness:
 Filter module thickness was limited to ≤ 30 mm
 A protective mesh was added at the exhaust outlet to prevent accidental contact with the fan impeller, improving user safety.
@@ -210,6 +218,7 @@ Status: Completed prototype, validated through testing
 ---
 Identified Issues in Version 1
 第一版（V1）问题总结
+
 During assembly and testing of Version 1, several design limitations were identified:
 Overly compact internal structure, leaving insufficient space for mounting control PCBs
 The rear enclosure was secured with only two screws, resulting in noticeable gaps at the two unsupported corners
