@@ -70,6 +70,7 @@ Development Time: January 12, 2026
 Status: Functional prototype, ongoing evaluation
 <img width="1224" height="1145" alt="image" src="https://github.com/user-attachments/assets/34d6d764-d1e5-4901-91a2-5f5d3e31f113" />
 <img width="1169" height="1137" alt="image" src="https://github.com/user-attachments/assets/fbf2abe1-b3fe-410f-8ab0-b479e34bd267" />
+<img width="978" height="953" alt="V2_3d_print" src="https://github.com/user-attachments/assets/88e1adca-2c0c-41a6-a3ad-bb07d476f2f5" />
 ![V1_total_view](https://github.com/user-attachments/assets/e932381b-8fd9-47e7-9eea-4025fc0a0cff)
 ![V1_dimension_1](https://github.com/user-attachments/assets/e67ab164-e65f-4b43-a467-409ac6e51d0c)
 ![V1_dimension_2](https://github.com/user-attachments/assets/f0b85415-b14a-4ea5-87bc-b71d9a45b0ad)
@@ -202,6 +203,8 @@ Version 2 – Optimisation & Iteration
 Development Time: January 13, 2026 – January 23, 2026
 Status: Completed prototype, validated through testing
 ![V2_total_view](https://github.com/user-attachments/assets/a61cbb47-7c22-435b-b2b6-13eeca4633ad)
+<img width="931" height="1006" alt="V2_section_view" src="https://github.com/user-attachments/assets/d597bc05-a4e2-4268-ad4c-996c78f40148" />
+<img width="978" height="953" alt="V2_3d_print" src="https://github.com/user-attachments/assets/f819bc76-2e8c-4ee2-acf8-3e21c3b5abf5" />
 
 ---
 Identified Issues in Version 1
