@@ -236,6 +236,7 @@ These issues motivated a comprehensive redesign rather than incremental modifica
 ---
 Design Changes in Version 2
 第二版（V2）设计改进
+
 To address the limitations of V1, Version 2 introduces a scaled-up and structurally refined design.
 Mechanical & Structural Improvements:
 Overall enclosure dimensions increased to 120 × 120 × 120 mm (L × W × H)
@@ -265,6 +266,7 @@ This change significantly reduced airflow turbulence and resulted in noticeably 
 ---
 Cost Breakdown & Component Selection
 成本与器件选型
+
 The total cost of a single unit in Version 2 is controlled to remain below RMB 100, excluding development time.
 Component	Description	Cost (RMB)
 3D printed enclosure	PLA material	~13
@@ -287,6 +289,7 @@ AWG18 / AWG26 线
 
 Testing Results & Further Optimisation
 测试结果与后续优化空间
+
 Practical testing of Version 2 showed that:
 The redesigned airflow path significantly improved acoustic performance
 The selected Sanyo centrifugal blower provides more suction capability than strictly required
@@ -299,6 +302,7 @@ V2 实测结果显示：
 
 Summary
 版本总结
+
 Version 2 represents a substantial improvement over Version 1 by resolving key mechanical, acoustic, and integration issues.
 This iteration demonstrates a clearer balance between performance, noise, manufacturability, cost, and practical usability, and provides a more robust foundation for future refinement.
 
