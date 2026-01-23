@@ -26,19 +26,6 @@ Air_Filter 是一个紧凑型、模块化的焊接烟气过滤与空气抽吸装
 
 本仓库用于记录 Air_Filter 项目的整体设计思路，包括机械结构、电气控制以及系统集成方案，主要用于学习、实验与开源分享。
 
-## Media / 项目展示
-
-> 项目实物照片与演示视频
-
-- 实物整体外观
-- 内部结构拆解
-- 不同摆放方式演示
-- PWM 调速与运行状态展示
-
-（此处插入图片 / 视频链接）
-
----
-
 ## Design Background & Motivation  
 ## 设计背景与动机
 
@@ -54,7 +41,7 @@ Air_Filter 是一个紧凑型、模块化的焊接烟气过滤与空气抽吸装
 
 因此，基于**小型化、可维护、可复用、适合个人工作台**的目标，萌生了自行设计并实现一款紧凑型焊接烟气过滤装置的想法。
 
-在实际设计与制作过程中遇到了大量问题，包括结构强度、风道设计、噪声控制、过滤效率与体积之间的权衡等。这些问题均在实践中逐一分析并尝试解决。目前该项目仍处于持续迭代阶段，并非最终完成版本，后续仍会不断更新和优化。
+在实际设计与制作过程中遇到了大量问题，包括结构强度、风道设计、噪声控制、过滤效率与体积之间的权衡等。这些问题均在实践中逐一分析并尝试解决。目前该项目已经基本完成既定目标。
 
 ---
 Design Evolution & Versions
@@ -69,7 +56,7 @@ Version 1 – Initial Prototype
 第一版原型设计（V1）
 
 Development Time: January 12, 2026
-Status: Functional prototype, ongoing evaluation
+Status: Functional prototype
 <img width="1224" height="1145" alt="image" src="https://github.com/user-attachments/assets/34d6d764-d1e5-4901-91a2-5f5d3e31f113" />
 <img width="1169" height="1137" alt="image" src="https://github.com/user-attachments/assets/fbf2abe1-b3fe-410f-8ab0-b479e34bd267" />
 <img width="978" height="953" alt="V2_3d_print" src="https://github.com/user-attachments/assets/88e1adca-2c0c-41a6-a3ad-bb07d476f2f5" />
